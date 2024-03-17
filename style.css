@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   background-color: #D2DED0;
+    height: 100vh;
+}
+
+#btn {
+    padding: 10px 20px;
+    color: #fff; 
+    background: linear-gradient(45deg, #4fc3f7, #28b6cf); 
+    border: none;
+    border-radius: 5px; 
+    margin-top: 20px;
+    margin-left: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    font-weight: bold; 
+   
+}
+
+#btn:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    cursor: pointer;
+    transform: scale(1.05); 
+}
